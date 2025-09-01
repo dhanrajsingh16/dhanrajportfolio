@@ -326,7 +326,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="mt-4">
-                    <a href="/Dhanraj Singh_Resume.pdf" download className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                    <a href="/Dhanraj_Singh_Resume.pdf" download className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
                       <span className="text-lg">📄</span>
                       <span>Resume</span>
                     </a>
