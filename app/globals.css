@@ -1,4 +1,4 @@
-@import "tailwindcss";
+  @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -19,8 +19,61 @@
   }
 }
 
+html, body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  background-image: url('/windows-11-stock-official-light-3840x2160-5664.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.modal-content.maximized {
+  width: 95vw !important;
+  height: 95vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal-content.maximized .grid {
+  gap: 2rem !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  place-items: center !important;
+  height: 100% !important;
+  align-content: center !important;
+}
+
+.modal-content.maximized .grid img {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+/* Start Menu Animation */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
 }
