@@ -65,7 +65,7 @@ export default function Home() {
         <div
           className="flex flex-col items-center cursor-pointer group"
           onClick={() =>
-            window.open("https://dhanraj-ai.vercel.app/", "_blank")
+            window.open("https://dhanrajaicompareaimodels.vercel.app/", "_blank")
           }
         >
           <Image
@@ -356,7 +356,7 @@ export default function Home() {
                       </p>
                       <div className="flex gap-4">
                         <a href="https://github.com/dhanrajsingh16/Dhanraj.AI" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
-                        <a href="https://dhanraj-ai.vercel.app/" target="_blank" className="text-blue-600 hover:underline">Live Demo</a>
+                        <a href="https://dhanrajaicompareaimodels.vercel.app/" target="_blank" className="text-blue-600 hover:underline">Live Demo</a>
                       </div>
                     </div>
 
