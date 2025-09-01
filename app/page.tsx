@@ -325,34 +325,37 @@ export default function Home() {
                       <span>+91 9313126695</span>
                     </div>
                   </div>
+                  <div className="mt-4">
+                    <a href="/Dhanraj Singh_Resume.pdf" download className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                      <span className="text-lg">📄</span>
+                      <span>Resume</span>
+                    </a>
+                  </div>
                 </div>
 
                 <section className="mb-8">
                   <h2 className="text-2xl font-semibold mb-4 text-blue-600 border-b-2 border-blue-600 pb-2">Education</h2>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h3 className="text-xl font-medium text-gray-800">Vellore Institute of Technology, Vellore, India</h3>
-                    <p className="text-gray-600 mb-2">(2021 - 2025)</p>
-                    <p className="font-medium">Bachelor of Technology, Computer Science and Engineering</p>
+                    <p className="text-gray-600 mb-2">2021 – 2025</p>
+                    <p className="font-medium">B.Tech, Computer Science and Engineering</p>
                     <p className="text-gray-700 mt-2">
-                      <strong>Coursework:</strong> Database Systems, Object Oriented Programming, Data Structures and Algorithms,
-                      Cryptography, Operating Systems, Computer Networks, Information Security Management
+                      <strong>Coursework:</strong> Database Systems, Object Oriented Programming, Data Structures and Algorithms, Cryptography, Operating
+Systems, Computer Networks, Information Security Management
                     </p>
                   </div>
                 </section>
 
                 <section className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4 text-blue-600 border-b-2 border-blue-600 pb-2">Projects / Experience</h2>
+                  <h2 className="text-2xl font-semibold mb-4 text-blue-600 border-b-2 border-blue-600 pb-2">Projects and Experience</h2>
 
                   <div className="space-y-6">
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">Dhanraj.AI</h3>
+                      <h3 className="text-xl font-medium text-gray-800">Dhanraj AI (AI Chat Platform)</h3>
                       <p className="text-gray-700 mb-2">
-                        Built a web app to chat with multiple AI models side by side in real time.
-                        Enabled response comparison with a "pick best" option for efficient analysis.
-                        Designed a modern, responsive UI with smooth interactions and live updates.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> React, Next.js, TailwindCSS, Node.js, Express, WebSockets, AI APIs (DeepSeek, Meta, Mistral, Gemini)
+                        • Built a real-time AI chat platform handling users across multiple LLMs using React, Next.js, Node.js, and WebSockets.<br/>
+                        • Implemented a response comparison feature that improved user decision-making efficiency by 30% through multi-response analysis.<br/>
+                        • Optimized backend scalability, reducing average latency by 25%, ensuring smooth interactions during high-traffic usage.
                       </p>
                       <div className="flex gap-4">
                         <a href="https://github.com/dhanrajsingh16/Dhanraj.AI" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
@@ -361,14 +364,12 @@ export default function Home() {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">Uploadnest SDK</h3>
+                      <h3 className="text-xl font-medium text-gray-800">Uploadnest SDK (File Upload SDK)</h3>
                       <p className="text-gray-700 mb-2">
-                        Developed a TypeScript library to upload files seamlessly via the Uploadnest API.
-                        Supported multiple environments including Node.js, Next.js, and browsers.
-                        Implemented full TypeScript support with error handling and type safety.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> TypeScript, Node.js, Next.js, Uploadnest API
+                        • Developed a TypeScript SDK for seamless uploads across Node.js, Next.js, and browser environments, reducing integration com-<br/>
+                        plexity.<br/>
+                        • Published on npm, achieving 234+ weekly downloads and reaching 1,500+ total installs within the first 3 months.<br/>
+                        • Reduced developer onboarding and integration time by 40% through modular APIs and detailed documentation.
                       </p>
                       <div className="flex gap-4">
                         <a href="https://github.com/dhanrajsingh16/Uploadnest-npm" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
@@ -377,40 +378,31 @@ export default function Home() {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">Cryptoverse</h3>
+                      <h3 className="text-xl font-medium text-gray-800">Cryptoverse (Crypto Tracker)</h3>
                       <p className="text-gray-700 mb-2">
-                        Created a modern cryptocurrency tracker with real-time price updates and charts.
-                        Integrated global crypto stats, search, and filtering functionalities.
-                        Managed state efficiently using Redux Toolkit with a responsive design.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> React, Redux Toolkit, Axios, Chart.js, Recharts, TailwindCSS
+                        • Engineered a cryptocurrency dashboard with live price tracking and advanced filtering, attracting users.<br/>
+                        • Improved performance by 35% using Redux Toolkit for efficient state management and smoother updates.<br/>
+                        • Built a responsive UI with Recharts and TailwindCSS, increasing device engagement by 45%.
                       </p>
                       <a href="https://github.com/dhanrajsingh16/Cryptoverse" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">Calendar Scheduling Platform SaaS</h3>
+                      <h3 className="text-xl font-medium text-gray-800">Calendar Scheduling SaaS</h3>
                       <p className="text-gray-700 mb-2">
-                        Built a fullstack SaaS platform for booking, managing, and tracking meetings.
-                        Integrated Google Calendar/Meet with timezone detection and booking links.
-                        Implemented JWT authentication, custom calendar, and event management.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> Node.js, PostgreSQL, TypeORM, React, Vite, TailwindCSS, Shadcn UI, Supabase, Google Calendar API
+                        • Created a SaaS scheduling platform with Google Calendar integration, enabling automated bookings.<br/>
+                        • Secured the platform with JWT authentication and streamlined workflows, cutting manual scheduling time by 60%.<br/>
+                        • Designed backend with Node.js, PostgreSQL, Supabase, TypeORM, ensuring 99.9% uptime and scalable performance.
                       </p>
                       <a href="https://github.com/dhanrajsingh16/Calendar-Scheduling-Platform" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">Chess Go</h3>
+                      <h3 className="text-xl font-medium text-gray-800">Chess Go (Web Chess Game)</h3>
                       <p className="text-gray-700 mb-2">
-                        Developed a browser-based chess game with standard rules and clean UI.
-                        Supported two-player mode with instant restart functionality.
-                        Designed for lightweight and responsive in-browser gameplay.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> TypeScript, React, CSS, Vercel
+                        • Designed a browser-based chess game with multiplayer support, achieving many matches played by the user.<br/>
+                        • Optimized the codebase, reducing page load time by 90%, resulting in smoother cross-device gameplay.<br/>
+                        • Deployed globally on Vercel, ensuring sub-200ms latency for players across multiple regions.
                       </p>
                       <div className="flex gap-4">
                         <a href="https://github.com/dhanrajsingh16/Chess-Go" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
@@ -421,25 +413,19 @@ export default function Home() {
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h3 className="text-xl font-medium text-gray-800">AI Financial SaaS Platform</h3>
                       <p className="text-gray-700 mb-2">
-                        Designed a scalable AI-powered fintech SaaS with real-time analytics.
-                        Implemented secure authentication, billing, and multi-tenant architecture.
-                        Added AI-driven insights and portfolio tracking for financial management.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> MongoDB, Express.js, React, Node.js, Redux, TailwindCSS, TensorFlow.js, OpenAI API, JWT, OAuth
+                        • Built an AI-powered fintech SaaS enabling real-time portfolio analytics for users.<br/>
+                        • Integrated multi-tenant architecture, secure authentication, and Stripe billing, generating initial, recurring revenue.<br/>
+                        • Applied TensorFlow.js and OpenAI API for predictive insights, improving user portfolio performance predictions by 25%.
                       </p>
                       <a href="https://github.com/dhanrajsingh16/ai-financial-saas" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">AI-Powered Code Reviewer</h3>
+                      <h3 className="text-xl font-medium text-gray-800">Codeify (AI Code Reviewer)</h3>
                       <p className="text-gray-700 mb-2">
-                        Built a web app that reviews code using AI and provides instant feedback.
-                        Detects bugs, unused code, and suggests performance optimizations.
-                        Features a clean, responsive interface with real-time code analysis.
-                      </p>
-                      <p className="text-gray-600 mb-2">
-                        <strong>Tools Used:</strong> React, TailwindCSS, Vite, Gemini API
+                        • Developed an AI-based code review tool that reduced manual review time by 40% for developers.<br/>
+                        • Integrated Gemini API for real-time recommendations, achieving 85% accuracy in bug detection and fixes.<br/>
+                        • Delivered a clean UI with React, Vite, TailwindCSS, improving user satisfaction scores.
                       </p>
                       <div className="flex gap-4">
                         <a href="https://github.com/dhanrajsingh16/Code-Reviewer-AI.git" target="_blank" className="text-blue-600 hover:underline">GitHub</a>
@@ -453,8 +439,8 @@ export default function Home() {
                   <h2 className="text-2xl font-semibold mb-4 text-blue-600 border-b-2 border-blue-600 pb-2">Technical Skills</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="font-medium text-gray-800 mb-2">Technologies/Frameworks</h3>
-                      <p className="text-gray-700">React, Next.js, Node.js, Express.js, Redux Toolkit, TailwindCSS, Shadcn UI, WebSockets</p>
+                      <h3 className="font-medium text-gray-800 mb-2">Technologies</h3>
+                      <p className="text-gray-700">React, Next.js, Node.js, Express, Redux Toolkit, TailwindCSS, Shadcn UI, WebSockets</p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h3 className="font-medium text-gray-800 mb-2">Languages</h3>
@@ -462,25 +448,23 @@ export default function Home() {
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h3 className="font-medium text-gray-800 mb-2">Databases</h3>
-                      <p className="text-gray-700">MongoDB, MySQL, Firebase, Appwrite, Postman, Supabase</p>
+                      <p className="text-gray-700">MongoDB, MySQL, Firebase, Supabase</p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="font-medium text-gray-800 mb-2">APIs & Tools</h3>
-                      <p className="text-gray-700">OpenAI API, Gemini API, Google Studio, Different AI Agents Used as Requirement, Stripe, Git, NPM</p>
+                      <h3 className="font-medium text-gray-800 mb-2">APIs / Tools</h3>
+                      <p className="text-gray-700">OpenAI API, Gemini API, Google Studio, Stripe, Git, NPM</p>
                     </div>
                   </div>
                 </section>
 
                 <section className="mb-8">
-                  <h2 className="text-2xl font-semibold mb-4 text-blue-600 border-b-2 border-blue-600 pb-2">Extracurricular Activities</h2>
+                  <h2 className="text-2xl font-semibold mb-4 text-blue-600 border-b-2 border-blue-600 pb-2">Positions of Responsibility</h2>
 
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">Ashrae Club, VIT Vellore</h3>
-                      <p className="text-gray-600 mb-2">Technical Head | Feb 2024 – Feb 2025</p>
+                      <h3 className="text-xl font-medium text-gray-800">Ashrae Club (Technical Head) Feb 2024 – Feb 2025</h3>
                       <p className="text-gray-700 mb-3">
-                        Led technical initiatives, mentoring juniors and coordinating innovative projects.
-                        Organized multiple workshops/events focused on sustainability and engineering.
+                        Led a 12-member team, organized 5+ workshops, and mentored 30 juniors, boosting hackathon participation by 40%.
                       </p>
                       <a href="/21BCE0736_Technical%20Head_2024.pdf" target="_blank" className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                         <span className="text-sm">📄</span>
@@ -489,11 +473,9 @@ export default function Home() {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="text-xl font-medium text-gray-800">C.S.E.D Club, VIT Vellore</h3>
-                      <p className="text-gray-600 mb-2">Senior Core Member | Mar 2023 – Feb 2024</p>
+                      <h3 className="text-xl font-medium text-gray-800">C.S.E.D Club (Senior Core Member) Mar 2023 – Feb 2024</h3>
                       <p className="text-gray-700">
-                        Supported hackathons, coding competitions, and technical events on campus.
-                        Guided juniors in project development and contributed to smooth event execution.
+                        Organized 3 coding events with 50+ participants, secured 10,000 in sponsorships, and guided 10+ successful projects.
                       </p>
                     </div>
                   </div>
